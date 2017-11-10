@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.javaear</groupId>
+    <artifactId>json2bean</artifactId>
+    <version>0.2.1</version>
+    <packaging>jar</packaging>
+    <name>json4bean</name>
+    <description>json4bean is a JSON to JavaBean processor written in Java</description>
+    <url>https://git.oschina.net/angryid/json4bean</url>
+    <inceptionYear>2016</inceptionYear>
+
+    <issueManagement>
+        <system>oschina Issue</system>
+        <url>http://git.oschina.net/angryid/json4bean/issues</url>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <groupId>com.kunlunsoft</groupId>
+            <artifactId>io0007</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <developers>
+        <developer>
+            <name>aooer</name>
+            <email>angryid@163.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git@git.oschina.net:angryid/json4bean.git</connection>
+        <developerConnection>scm:git@git.oschina.net:angryid/json4bean.git</developerConnection>
+        <url>git@git.oschina.net:angryid/json4bean.git</url>
+    </scm>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

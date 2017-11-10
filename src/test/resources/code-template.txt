@@ -1,0 +1,20 @@
+#copyright
+/*
+ * Copyright 2016-2016 Chanjet Information Technology Company Limited.
+ */
+#copyright
+#class
+/**
+ * @author 黄威
+ */
+#class
+#getter
+/**
+ * @return ${field_name}
+ */
+#getter
+#setter
+/**
+ * @param ${field_name} ${field_name}
+ */
+#setter
